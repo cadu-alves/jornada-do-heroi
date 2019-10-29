@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ChartJS - Pie Chart</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="general">
+        <div class="donut">
+            <canvas id="myChart" height="750px" width="750px"></canvas>
+        </div>
+        <div class="infos">
+            <h1 id="title">
+                Seja bem vindo à jornada do Herói </h1>
+            <h3 id="subtitle">
+                {{Aqui vem a descrição da etapa}} </h3>
+            <div id="redacao">
+                {{Aqui vem o exemplo da etapa}} </div>
+        </div>
+    </div>
+    <div class="imagem">
+        <!-- <img id="img" src="images/testImage.png"> -->
+    </div>
+    
+
+
+    <!-- Javascript do zinferno -->
+    <script src="redacao/title.js"></script>
+    <script src="redacao/subtitle.js"></script>
+    <script src="redacao/text.js"></script>
+    <script src="redacao/imagens.js"></script>
+    <script src="chart.js"></script>
+</body>
+</html>
