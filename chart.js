@@ -1,10 +1,10 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 class ChartOptions {
-    constructor(title, subtitle, text){
+    constructor(title, subtitle, text, img){
         this.title = title;
         this.subtitle = subtitle;
         this.text = text; 
-        //this.img = img;
+        this.img = img;
     }
 }
 
@@ -95,7 +95,8 @@ $("#myChart").click(function(evt){
             $('#title').text(optionsArray[index].title);
             $('#subtitle').text(optionsArray[index].subtitle);
             $('#redacao').text(optionsArray[index].text);
- //           $('#redacao').text(optionsArray[index].img);
+            //console.log('Logando o Url: ' + optionsArray[index].img);
+            $('.donut canvas').css('background-image',"url(" + optionsArray[index].img + ")");
         }
 	    console.log(activePoints);
     }

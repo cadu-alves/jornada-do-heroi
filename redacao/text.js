@@ -23,7 +23,7 @@ let textao11 = 'Lorem Ipsum Dolor sit amet 11';
 
 let textao12 = 'Lorem Ipsum Dolor sit amet 12';
 
-const textos =  {
+const text =  {
     textao1,
     textao2,
     textao3,
