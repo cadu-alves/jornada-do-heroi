@@ -1,6 +1,4 @@
-
 let textao1 = `É a ambientação inicial, que mostra quem é o personagem, como e onde ele vive, com quem se relaciona e como sua vida poderia ser monótona e bem parecida com a vida de qualquer outra pessoa comum. \n
-\n
 Aqui, a natureza do personagem é exibida, assim como suas qualidades e defeitos, forças e fraquezas, e demais detalhes capazes de fazer com que o público encontre pontos de identificação com ele.`;
 
 let textao2 = `A aventura começa quando o personagem se depara com o conflito, com o chamado para uma missão que o tira do seu mundinho comum, da sua zona de conforto. Não necessariamente precisa ser algo dramático como a morte — basta que seja um desafio que o obrigue a experimentar coisas novas. \n
