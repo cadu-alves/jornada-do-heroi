@@ -1,8 +1,12 @@
+// substitui a quebra de linha na string ----------
+// por quebra de linha no HTML
 $.fn.multiline = function(text){
     this.text(text);
     this.html(this.html().replace(/\n/g,'<br/>'));
     return this;
 }
+// ------------------------------------------------
+
 var ctx = document.getElementById('myChart').getContext('2d');
 class ChartOptions {
     constructor(title, subtitle, text, img){
