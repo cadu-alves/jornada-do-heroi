@@ -1,3 +1,8 @@
+$.fn.multiline = function(text){
+    this.text(text);
+    this.html(this.html().replace(/\n/g,'<br/>'));
+    return this;
+}
 var ctx = document.getElementById('myChart').getContext('2d');
 class ChartOptions {
     constructor(title, subtitle, text, img){
@@ -94,7 +99,7 @@ $("#myChart").click(function(evt){
             let index = activePoints[0]._index;
             $('#title').text(optionsArray[index].title);
             $('#subtitle').text(optionsArray[index].subtitle);
-            $('#redacao').text(optionsArray[index].text);
+            $('#redacao').multiline(optionsArray[index].text);
             //console.log('Logando o Url: ' + optionsArray[index].img);
             $('.donut canvas').css('background-image',"url(" + optionsArray[index].img + ")");
         }
